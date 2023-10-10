@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="descripcion" content="¿Tienes alguna pregunta o comentario? Contactate con nosotros.">
+
+    <!--inicio bs-->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-T3c6CoIi6uLrA9TneNEoa7RxnatzjcDSCmG1MXxSR1GAsXEV/Dwwykc2MPK8M2HN" crossorigin="anonymous">
+    <!--fin bs-->
+
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer"/>
+    <link rel="stylesheet" href="../estilos.css">
+    <title>Martin Viajes</title>
+</head>
+<body>
+    <!--incio de navbar-->
+    <header class="navbar navbar-expand-lg encabezado">
+        <div class="container-fluid">
+        <a class="navbar-brand" href="#">
+            <h1>Martin<span class="rosa">Viajes</span></h1>
+        </a>
+        <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#navbarNav" aria-controls="navbarNav" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+        <nav class="collapse navbar-collapse" id="navbarNav">
+            <ul class="navbar-nav">
+            <li class="nav-item">
+                <a class="nav-link" href="../index.html">Home</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./destinos.html">Destinos</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./guias.html">Guias</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./contacto.html">Contacto</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link" href="./sucursales.html">Sucursales</a>
+            </li>
+            </ul>
+        </nav>
+        </div>
+    </header>
+    <!--fin navbar-->
+
+    <h2>Contacto</h2>
+    <form>
+        <label for="nombre">Nombre</label>
+        <input type="text" id="nombre">
+
+        <label for="apellido">Apellido</label>
+        <input type="text" id="apellido">
+
+        <label for="mensaje">Mensaje</label>
+        <textarea name="" id="" cols="30" rows="10" placeholder="deje su consulta"></textarea>
+
+        <input class="btnFormulario" type="submit">
+        <input class="btnFormulario" type="reset">
+    </form>
+
+    <footer class="footer">
+        <div class="footerContenido">
+            <div class="infoContenido d-flex flex-column text-center">
+                <h2>Contacto</h2>
+                <p><i class="fas fa-map-marker-alt"></i>Direccion: Gascon 2142</p>
+                <p><i class="fas fa-phone"></i>Telefono: 231444299</p>
+                <p><i class="fas fa-envelope"></i>Email: josefinajm969@gmail.com</p>
+            </div>
+        </div> 
+
+        <div class="redesSociales">
+            <h2>Redes sociales</h2>
+            <i class="fa-brands fa-facebook">
+                <a href="https://www.facebook.com/?locale=es_LA" target="_blank"></a></i>
+            <i class="fa-brands fa-instagram">
+                <a href="https://www.instagram.com" target="_blank"></a></i>
+            <i class="fa-brands fa-whatsapp">
+                <a href="https://www.whatsapp.com/?lang=es_LA" target="_blank"></a></i>
+        </div>
+    </footer>
+
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.3.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-C6RzsynM9kWDrMNeT87bh95OGNyZPhcTNXj1NW7RuBCsyN/o0jlpcV8Qyq46cDfL" crossorigin="anonymous"></script>
+
+</body>
+</html>
