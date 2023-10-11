@@ -1,1 +1,1 @@
-{"version":3,"sourceRoot":"","sources":[],"names":[],"mappings":"","file":"estilos.css"}
+{"version":3,"sourceRoot":"","sources":["sass/reset.scss","sass/header.scss"],"names":[],"mappings":"AAAA;EACI;EACA;;;AAGJ;EACI;;;ACFJ;EACC;EACA;EACA;EACA;EACA;;AACA;EACC;EACA;EACA;EACA;;AAED;EACC;EACA;;AACA;EACC;EACA;EACA,OApBO;EAqBP;;AACA;EACC,OAzBM;;;AA8BV;EACC,OA/BS;;;AAkCT;EACC;EACA,OAnCQ;EAoCR","file":"estilos.css"}
