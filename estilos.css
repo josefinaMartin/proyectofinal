@@ -69,7 +69,7 @@ body {
   display: flex;
   flex-direction: column;
   justify-content: center;
-  align-items: center;
+  align-items: center center;
   background-color: aliceblue;
   border: 1px solid gainsboro;
   padding-left: 20px;

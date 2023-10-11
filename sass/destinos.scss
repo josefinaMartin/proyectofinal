@@ -27,7 +27,7 @@ $color_2: antiquewhite;
 	display: flex;
 	flex-direction: column;
 	justify-content: center;
-	align-items: center;
+	align-items: center center;
 	background-color: aliceblue;
 	border: 1px solid gainsboro;
 	padding-left: 20px;
@@ -38,7 +38,7 @@ $color_2: antiquewhite;
 	img {
 		max-width: 100%;
 	}
-    
+
 	button {
 		background-color: rgb(219, 156, 156);
 		color: $color_2;
