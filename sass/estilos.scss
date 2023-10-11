@@ -1,7 +1,62 @@
-@import "variables";
+
 @import "reset";
 @import "header";
 @import "destinos";
 @import "guias";
 @import "contacto";
 @import "responsive"; 
+@import "banner";
+
+
+
+$color_1: black;
+
+.footer {
+	background-color: rosybrown;
+	color: $color_1;
+	padding: 20px 0;
+	text-align: center;
+	h4 {
+		font-size: 1.5rem;
+		margin-bottom: 10px;
+	}
+}
+.footerContenido {
+	justify-content: space-between;
+	max-width: 1200px;
+	margin: 0 auto;
+	padding: 0 20px;
+	text-align: center;
+}
+
+$color_1: black;
+
+.infoContacto {
+	p {
+		margin: 5px 0;
+		font-size: 1,2rem;
+	}
+}
+.redesSociales {
+    a {
+		margin: 5px 0;
+		font-size: 1,2rem;
+		&:hover {
+			color: $color_1;
+		}
+	}
+	i {
+		color: $color_1;
+		text-decoration: none;
+		background-position: center;
+		margin-right: 10px;
+		font-size: 1.5rem;
+	}
+}
+
+footer {
+
+	i {
+		margin-right: 10px;
+	}
+}

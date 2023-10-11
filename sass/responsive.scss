@@ -1,0 +1,44 @@
+@media (max-width:1023px) {
+    .encabezado {
+        height: auto;
+        flex-direction: column;
+        text-decoration: column;
+        text-align: center;
+    }
+
+    .bannercontenido p {
+        font-size: 2.5rem;
+    }
+
+    .destinos {
+        margin: 5vh;
+        font-size: 2rem;
+    }
+
+
+    .destinos h3, 
+    .destinos p {
+        font-size: inherit;
+    }
+
+    .contenedorDestino {
+        grid-template-columns: 1fr 1fr;
+    }
+
+    .contenedorguias {
+        flex-direction: column;
+    }
+
+    .footerContenido {
+        flex-direction: column;
+        text-align: center;
+    }
+
+}
+
+@media (max-width:768px) {
+
+    .contenedorDestino {
+        grid-template-columns: 1fr;
+    }
+}

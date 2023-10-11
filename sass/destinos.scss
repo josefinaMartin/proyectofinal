@@ -1,0 +1,60 @@
+$color_1: black;
+$color_2: antiquewhite;
+
+.destinos {
+	text-align: center;
+	margin: uppercase;
+	font-size: 3rem;
+	border: 1px solid gainsboro;
+	border-radius: 10px;
+	padding: 20px;
+	text-align: center;
+
+	p {
+		font-size: 4rem;
+		color: $color_1;
+		gap: center;
+	}
+}
+
+.contenedorDestino {
+	display: grid;
+	grid-template-columns: repeat(3, 1fr);
+	gap: 20px;
+}
+
+.tarjeta {
+	display: flex;
+	flex-direction: column;
+	justify-content: center;
+	align-items: center;
+	background-color: aliceblue;
+	border: 1px solid gainsboro;
+	padding-left: 20px;
+	box-shadow: opx 2px 4px black;
+	margin: 10px;
+	background-position: center;
+
+	img {
+		max-width: 100%;
+	}
+    
+	button {
+		background-color: rgb(219, 156, 156);
+		color: $color_2;
+		border: none;
+		padding: 10px 20px;
+		font-size: 1rem;
+		cursor: pointer;
+		margin-top: 10px;
+		&:hover {
+			background-color: rgb(231, 143, 143);
+		}
+	}
+}
+
+.tarteja {
+	p {
+		margin: 10px 0;
+	}
+}
